@@ -1,5 +1,17 @@
 # README
 
+Provides the vim-like ex commands:
+
+(evil-ex-define-cmd "mks[ession]" 'mksession-cmd)
+
+(evil-ex-define-cmd "so[urce]" 'source-cmd)
+
+(evil-ex-define-cmd "so[urce]list" 'source-ls-cmd)
+
+(evil-ex-define-cmd "dels[ession]" 'delete-session-cmd)
+
+(evil-ex-define-cmd "ren[ame]session" 'rename-session-cmd)
+
 See comments in evil-revive.el for a full description of configuration
 and use. This package depends on revive.el. If you wish to use my copy
 of HIROSE Yuuji's excellent revive.el and window.el packages, together
